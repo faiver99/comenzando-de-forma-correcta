@@ -2,9 +2,12 @@ let hora = document.querySelector('h1');
 hora.innerHTML = ('Hora del Reto')
 
 function clicado(){
-    alert("Mirar la consola")
     console.log("El botón fue clícado")
+    alert("Mirar la consola")
+    
 }
+
+
 function pron () {
     let ciudad;
     ciudad = prompt(" Ingrese el nombre de una ciudad en Colombia")
