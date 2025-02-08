@@ -1,0 +1,10 @@
+# Explicación del Código  
+
+Este código JavaScript manipula elementos del DOM y proporciona funciones interactivas mediante `prompt`, `alert`, y `console.log`.  
+
+## Descripción de las Funciones  
+
+### 1. Modificar el contenido de un elemento `<h1>`  
+```js
+let hora = document.querySelector('h1');
+hora.innerHTML = ('Hora del Reto');
